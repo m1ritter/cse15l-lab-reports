@@ -1,4 +1,4 @@
-# Week 1 Lab Report
+**Week 1 Lab Report**
 ## A Guide: Remote Computers & VS Code
 **Monday, January 16, 2023**
 
