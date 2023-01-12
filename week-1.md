@@ -1,5 +1,5 @@
 **Week 1 Lab Report**
-## Remote Access & VS Code
+## Remote Access & FileSystem
 **Monday, January 16, 2023**
 
 By: Maddie Ritter
