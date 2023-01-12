@@ -27,4 +27,4 @@ From here, I began just playing around with some of the commands we learned in l
 
 <img width="1244" alt="Screen Shot 2023-01-12 at 8 57 26 AM" src="https://user-images.githubusercontent.com/122555675/212195713-f6b327be-e2b7-42d0-8811-29ce3f079244.png">
 
-## From here, we did it! Successfully accessed the remote computer and practiced some of our software techniques and tools with VS code!
+## We did it! Successfully accessed the remote computer and practiced some of our software techniques and tools with VS code!
