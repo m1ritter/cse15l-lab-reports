@@ -13,7 +13,10 @@ the main window you should see when opening the code-editing application.
 
 
 ## *REMOTELY CONNECTING:*
-Now here is the tricky bit. First you have to follow the link provided in the lab directions, and find yourself at a UCSD page that asks for your username (the first half of your email before @ucsd.edu) and your PID. From here, it gives you a special username beginning in "cs15lwi23." You then have to create a new password that will serve as your access to the remote computer. It takes approximately 15 minutes before the password is officially changed and can be used. Once this happens, you create a new terminal in VS code (top menu bar on desktop -> Terminal -> New Terminal). In the terminal we use the "ssh" key word (which stands for Secure Shell) to access the remote computer. I typed $ ssh (insert new username)@ieng6.ucsd.edu, which then prompted me to type my new password. Note: for security purposes, when you type your password the keys do not show up. 
+Now here is the tricky bit. First you have to follow the link provided that after logging in, gives you a special username beginning in "cs15lwi23." You then have to create a new password that will serve as your access to the remote computer. In a terminal we use the "ssh" key word (which stands for Secure Shell) to access the remote computer. I typed $ ssh (insert new username)@ieng6.ucsd.edu, which then prompted me to type my new password. 
+
+Note: for security purposes, when you type your password the keys do not show up. 
+
 Unfortunately, for me, after dozens of attempts, the terminal was not recognizing my password (this also happened to quite a few others). The TA suggested that I use my regular UCSD username to see if that worked. I again tried: m1ritter@ieng6.ucsd.edu and retyped my password when prompted. This finally worked! Below is a small screenshot of what I saw when I gained access to the remote computer.
 
 <img width="414" alt="Screen Shot 2023-01-12 at 8 54 29 AM" src="https://user-images.githubusercontent.com/122555675/212192820-04e179d0-a736-4fc2-b7b4-90a40724442e.png">
