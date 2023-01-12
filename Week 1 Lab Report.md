@@ -1,5 +1,5 @@
 **Week 1 Lab Report**
-## A Guide: Remote Computers & VS Code
+## Remote Access & VS Code
 **Monday, January 16, 2023**
 
 By: Maddie Ritter
