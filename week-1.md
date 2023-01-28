@@ -5,9 +5,8 @@
 By: Maddie Ritter
 
 ## *INSTALLING VS CODE:* 
-Like many of my fellow classmates, I already had VS Code downloaded to my mac but here is a short tutorial anyways! There is a link on the Lab Report writeup that prompts you to download the application on your destkop. Begin the download and when the application opens on your desktop, click to open! Simple as that. For those on Windows, you must install Git (this is already done on Macs!). Like VSCode, there is a link to a simple download available on the Lab 1 instructions, or available on Google. Once this is done, you will need to set your default terminal so that it uses the newly-installed git bash in VS Code. All you have to do is change the default profile in the terminal to "Git Bash." When opening a new terminal, the small box in the top left should say "bash." Then you will be ready to go! 
-I opted to work on my computer rather than the lab computers since I am more familiar with the mac interface and my personal set up. I was able to get VS Code open rather quickly and clipped a quick screenshot! Here is the main window you should see when opening the code-editing application. 
-
+I already had VS Code downloaded to my mac but here is a short tutorial anyways! There is a link on the Lab Report writeup that prompts you to download the application on your destkop. Begin the download and when the application opens on your desktop, click to open! Simple as that. For those on Windows, you must install Git (this is already done on Macs!). Like VSCode, there is a link to a simple download available on the Lab 1 instructions, or available on Google. Once this is done, you will need to set your default terminal so that it uses the newly-installed git bash in VS Code. All you have to do is change the default profile in the terminal to "Git Bash." When opening a new terminal, the small box in the top left should say "bash." Then you will be ready to go! 
+Here is the main window you should see when opening the code-editing application. 
 <img width="1398" alt="Screen Shot 2023-01-12 at 8 15 10 AM" src="https://user-images.githubusercontent.com/122555675/212189980-021af8d0-9512-4974-afa6-450b4da18c09.png">
 
 
