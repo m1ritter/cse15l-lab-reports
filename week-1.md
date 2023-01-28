@@ -5,9 +5,8 @@
 By: Maddie Ritter
 
 ## *INSTALLING VS CODE:* 
-Like many of my fellow classmates, I already had VS Code downloaded to my mac but here is a short tutorial anyways! There is a link on the Lab Report writeup that prompts you to download the application on your destkop. Begin the download and when the application opens on your desktop, click to open! Simple as that. I opted to work on my computer rather than the lab computers since 
-I am more familiar with the mac interface and my personal set up. I was able to get VS Code open rather quickly and clipped a quick screenshot! Here is 
-the main window you should see when opening the code-editing application. 
+Like many of my fellow classmates, I already had VS Code downloaded to my mac but here is a short tutorial anyways! There is a link on the Lab Report writeup that prompts you to download the application on your destkop. Begin the download and when the application opens on your desktop, click to open! Simple as that. For those on Windows, you must install Git (this is already done on Macs!). Like VSCode, there is a link to a simple download available on the Lab 1 instructions, or available on Google. Once this is done, you will need to set your default terminal so that it uses the newly-installed git bash in VS Code. Then you will be ready to go! 
+I opted to work on my computer rather than the lab computers since I am more familiar with the mac interface and my personal set up. I was able to get VS Code open rather quickly and clipped a quick screenshot! Here is the main window you should see when opening the code-editing application. 
 
 <img width="1398" alt="Screen Shot 2023-01-12 at 8 15 10 AM" src="https://user-images.githubusercontent.com/122555675/212189980-021af8d0-9512-4974-afa6-450b4da18c09.png">
 
@@ -17,7 +16,7 @@ the main window you should see when opening the code-editing application.
 ## *REMOTELY CONNECTING:*
 Now here is the tricky bit. First you have to follow the link provided that after logging in, gives you a special username beginning in "cs15lwi23." You then have to create a new password that will serve as your access to the remote computer. In a terminal we use the "ssh" key word (which stands for Secure Shell) to access the remote computer. I typed: 
 
-$ ssh (insert new username)@ieng6.ucsd.edu
+**$ ssh (insert new username)@ieng6.ucsd.edu**
 
 which then prompted me to type my new password. 
 
@@ -31,11 +30,11 @@ Unfortunately, for me, after dozens of attempts, the terminal was not recognizin
 ## *TRYING SOME COMMANDS:*
 From here, I began just playing around with some of the commands we learned in lecture. I didn't get too fancy with it since I am still learning about what they all mean and how they can be used. I first used 
 
-$ prep -l 
+**$ prep -l**
 
 which was a command shown to me on the terminal itself when the remote computer connected. It gave more insight into the software packages that were available. The output was quite a bit of code that showed "Prepped: Matlab" as well as all the other all the other tools are are "Available." I also used 
 
-$ ls -a 
+**$ ls -a** 
 
 which seemed to list out all the folders in my directory. They were listed in different colors seemingly based on their location. Possibly blue for the local computer, while green for the ones on the remote computer, but this is just me making an observation. Below is a clip of some of these commands and their outputs.
 
