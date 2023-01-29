@@ -62,7 +62,7 @@ static void reverseInPlace(int[] arr) {
   }
 
 ```
-
+This fixes the bug because the issue with the initial code is that only half the array is getting copied and then the values in the second half get overwridden. So we needed to use the array copy again in order to store the rest of these values. 
 
 ## **Part 3**
 
