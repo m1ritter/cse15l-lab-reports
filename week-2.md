@@ -1,5 +1,5 @@
 **Week 2 Lab Report**
-## Servers and Bugs
+# Servers and Bugs
 **Monday, January 30, 2023**
 
 By: Maddie Ritter
@@ -8,7 +8,7 @@ By: Maddie Ritter
 
 
 
-# Part 2 - reverseinPlace( )
+## Part 2 - reverseinPlace( )
 
 **A failure inducing input**
 ```
