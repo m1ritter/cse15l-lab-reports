@@ -8,7 +8,7 @@ By: Maddie Ritter
 
 
 
-## Part 2 - reverseinPlace( )
+## Part 2 - reverseInPlace( )
 
 **A failure inducing input**
 ```
@@ -49,12 +49,23 @@ static void reverseInPlace(int[] arr) {
 ```
 
 ```
+# After the fix
+static void reverseInPlace(int[] arr) {
+  int[] newArr = new int[arr.length];
+  
+  for(int i = 0; i < arr.length; i++) {
+      newArr[i] = arr[arr.length - i - 1];
+    }
+  for(int i = 0; i < arr.length; i++){
+      arr[i] = newArr[i];
+    }
+  }
 
 ```
 
 
 ## **Part 3**
 
-
+In Lab 3, I learned about the important and usefulness of testing code. I had never really thought about a scenario where people could write testers that "pass," even though the code does not work properly. It is definitely a very useful skill to be able to write testers that fully assess what the code is meant to do, rather than "pass" under specific conditions. This is something I will look for and continue to approve upon moving forward. 
 
 
