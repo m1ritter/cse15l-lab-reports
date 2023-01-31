@@ -32,6 +32,16 @@ class Handler implements URLHandler {
 The handleRequest( ) method is called when a string is added to the URL. The method takes in arguments of type URI and the variable called 'string' gets elements added to it. For example, "Hello" is added after the /add-message?s=Hello request.    
   
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 > /add-message?s=How are you
        
 <img width="502" alt="Screen Shot 2023-01-30 at 5 29 08 PM" src="https://user-images.githubusercontent.com/122555675/215637108-490cd9ec-94a2-42d1-a4eb-a1022d07529c.png">
