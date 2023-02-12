@@ -13,9 +13,9 @@ $ find . -type f -name "ch1.txt" -exec rm -f {} \;
 ```
 $ find . -type f -name "chA.txt" -exec rm -f {} \;
 ```
-I did this command with the skill-demo1-data directory open on my VS Code and was able to watch after hitting enter, the ch1.txt file in Abernathy was immediately deleted. The same happened for chA.txt in Castro. Both of these files were in written_2/non-fiction and although there was nothing on the terminal to indicate any change, I was able to observe the files were immediately deleted. 
+I did this command with the skill-demo1-data directory open on my VS Code and was able to watch after hitting enter, the ch1.txt file in Abernathy was immediately deleted. The same happened for chA.txt in Castro. Both of these files were in written_2/non-fiction and although there was nothing on the terminal to indicate any change, I was able to observe the files were immediately deleted on my VS Code. Furthermore, when I tried to search for the deleted files with "-name", nothing came up on the terminal indicated, again, that it worked!
+
 The "-type f" indicates I am searching for a file, the "-name" indicates the name of the file I want to delete ("ch1.txt" or "chA.txt") and the "-exec rm -f{}" indicates I want to remove the specified file. The single dot after "find" means I am searching in the current directory.
-When I tried to search for the deleted files with "-name", nothing came up on the terminal indicated, again, that it worked!
 
 I learned that the {} is an essential part of this command that you need to reference the result of the final command. The "\" and ";" are used together to terminal the exec command and escape the special character. 
 
