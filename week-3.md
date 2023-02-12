@@ -4,13 +4,6 @@
 
 By: Maddie Ritter
 
-##
-```
-```
-
-```
-```
-
 ## -type & -remove
 https://linuxhandbook.com/find-command-examples/
 ```
@@ -25,6 +18,18 @@ The "-type f" indicated I am searching for a file, the "-name" indicates the nam
 When I tried to search for the deleted files with "-name", nothing came up on the terminal indicated, again, that it worked!
 
 I learned that the {} is an essential part of this command that you need to reference the result of the final command. The "\" and ";" are used together to terminal the exec command and escape the special character. 
+
+
+## -delete
+```
+$ find . -name "ch2.txt" -delete
+```
+The command is a simplified version of the -remove above. Like -remove, it allows you to delete any file with the specified name in the current directory, indicated by the "." after find. In this case, I specified "ch2.txt" which is in the Abernathy directory, and after running this command, the file was immediately deleted. Much like -remove, there was no command-line output.
+
+```
+$ find . -name "ch3.txt" -delete
+```
+With this command, the "ch3.txt" file in Kauffman directory was immediately deleted as well! Again, there was no output to the terminal but I was able to watch the file delete quickly after my command. This is a much simpler and efficient command to use when wanting to delete a file, compared to the "-type, -name, -remove" command above.
 
 ## -empty
 https://www.tecmint.com/35-practical-examples-of-linux-find-command/
