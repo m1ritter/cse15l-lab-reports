@@ -43,8 +43,7 @@ https://linuxhandbook.com/find-command-examples/
 find . -size -1G
 ```
 ```
-//output
-
+// example output
 ./written_2
 ./written_2/non-fiction
 ./written_2/non-fiction/OUP
@@ -52,10 +51,20 @@ find . -size -1G
 ./written_2/non-fiction/OUP/Berk/ch2.txt
 ./written_2/non-fiction/OUP/Berk/CH4.txt
 ...
-...
 ```
 The command "-size" is used to find files and directories that are a certain size. In this example I tried to find any files in the current directory that are smaller than 1GB (which is abbreviated with G in the command line). There was a lot! In the code block, I listed just a few that came up. Again, the "." after find represents the current directory, 
 
 ```
-
+find . -size -20c
 ```
+```
+//example output 
+./written_2/travel_guides
+./written_2/travel_guides/berlitz1
+./written_2/travel_guides/berlitz1/HandRLasVegas.txt
+./written_2/travel_guides/berlitz1/HistoryJapan.txt
+./written_2/travel_guides/berlitz1/IntroMalaysia.txt
+./written_2/travel_guides/berlitz1/HandRIstanbul.txt
+...
+```
+Similarly, for this one, I looked to find all the files that were bigger than 20 bytes (which is written as 20c at the command line). The output was almost identical to the first output showing that all of the files in written_2 are bigger than 20 bytes but smaller than 1 GB!
