@@ -4,6 +4,16 @@
 
 By: Maddie Ritter
 
+## -type & -remove
+```
+$ find . -type f -name "ch1.txt" -exec rm -f {} \;
+```
+
+```
+$ find . -type f -name "ch1.txt" -exec rm -f {} \;
+```
+I did this command with the skill-demo1-data directory open on my VS Code and was able to watch after hitting enter, the ch1.txt file in Abernathy was immediately deleted. The same happened for chA.txt in Castro. Both of these files were in writtem_2/non-fiction and although there was nothing on the terminal to indicate any change, I was able to observe the files were immediately deleted. 
+
 ## -empty
 ```
 $ find ./written_2 -empty
