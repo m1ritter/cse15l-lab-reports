@@ -41,6 +41,10 @@ This command finds all of the emtpy directories or files that are specified at t
 https://linuxhandbook.com/find-command-examples/
 ```
 find . -size -1G
+```
+```
+//output
+
 ./written_2
 ./written_2/non-fiction
 ./written_2/non-fiction/OUP
