@@ -11,13 +11,6 @@ By: Maddie Ritter
 ```
 ```
 
-##
-```
-```
-
-```
-```
-
 ## -type & -remove
 https://linuxhandbook.com/find-command-examples/
 ```
@@ -43,3 +36,22 @@ $ find ./written_2 -empty
 $ find ./written_2/non-fiction -empty
 ```
 This command finds all of the emtpy directories or files that are specified at the terminal. Here, neither the directory, written_2 nor non-fiction have anything empty in them, so there is no output. 
+
+## -size
+https://linuxhandbook.com/find-command-examples/
+```
+find . -size -1G
+./written_2
+./written_2/non-fiction
+./written_2/non-fiction/OUP
+./written_2/non-fiction/OUP/Berk
+./written_2/non-fiction/OUP/Berk/ch2.txt
+./written_2/non-fiction/OUP/Berk/CH4.txt
+...
+...
+```
+The command "-size" is used to find files and directories that are a certain size. In this example I tried to find any files in the current directory that are smaller than 1GB (which is abbreviated with G in the command line). There was a lot! In the code block, I listed just a few that came up. Again, the "." after find represents the current directory, 
+
+```
+
+```
