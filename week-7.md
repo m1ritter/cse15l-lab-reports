@@ -5,8 +5,8 @@
 By: Maddie Ritter
 
 ## 1. Setup Delete any existing forks of the repository you have on your account
-`cd .. <enter>`
-`rm -rf lab7 <enter> 
+`cd .. <enter>` <br>
+`rm -rf lab7 <enter>`
 
 
 
