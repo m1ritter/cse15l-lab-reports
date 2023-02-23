@@ -4,11 +4,11 @@
 
 By: Maddie Ritter
 
-1. Setup Delete any existing forks of the repository you have on your account
+## 1. Setup Delete any existing forks of the repository you have on your account
 <img width="664" alt="Screen Shot 2023-02-23 at 9 30 42 AM" src="https://user-images.githubusercontent.com/122555675/220984556-26b89a32-7392-4bf4-b35a-882f75c0be19.png">
-2. Setup Fork the repository
+## 2. Setup Fork the repository
 <img width="1427" alt="image" src="https://user-images.githubusercontent.com/122555675/220985203-0da2c1df-9570-4ab6-8411-eb30da58e26a.png">
-3. The real deal Start the timer!
+## 3. The real deal Start the timer!
 4. Log into ieng6
 <img width="768" alt="image" src="https://user-images.githubusercontent.com/122555675/220985393-c0aade74-3cd2-485e-8db5-33b32452a682.png">
 5. Clone your fork of the repository from your Github account
