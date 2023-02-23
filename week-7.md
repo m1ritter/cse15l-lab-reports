@@ -7,12 +7,12 @@ By: Maddie Ritter
 ## 1. Setup Delete any existing forks of the repository you have on your account
 `cd .. <enter>` <br>
 `rm -rf lab7 <enter>`
-
-
+`ls`
 
 <img width="664" alt="Screen Shot 2023-02-23 at 9 30 42 AM" src="https://user-images.githubusercontent.com/122555675/220984556-26b89a32-7392-4bf4-b35a-882f75c0be19.png">
 
 ## 2. Setup Fork the repository
+
 <img width="1427" alt="image" src="https://user-images.githubusercontent.com/122555675/220985203-0da2c1df-9570-4ab6-8411-eb30da58e26a.png">
 
 ## 3. The real deal Start the timer!
