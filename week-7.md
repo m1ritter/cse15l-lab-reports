@@ -33,9 +33,10 @@ Because of our new SSH key, no password was needed and it greatly expedited the 
 <br>
 Because we have our handy SSH key and are logged into the server, we can use the SSH generated link provided on GitHub to clone our fork in the terminal. Below shows where the link was taken from, and what the code output was after running.
 <br>
-<img width="1426" alt="image" src="https://user-images.githubusercontent.com/122555675/221434344-7e57d747-eb85-4742-8190-311d1834d3f4.png">
+<img width="1426" alt="image" src="https://user-images.githubusercontent.com/122555675/221434344-7e57d747-eb85-4742-8190-311d1834d3f4.png"> <br>
 <br>
 **Code Output** 
+<br>
 <img width="652" alt="image" src="https://user-images.githubusercontent.com/122555675/220984786-ade4e71a-7b18-48b9-92ce-2ed2f00634cd.png">
 
 ## 6. Run the tests, demonstrating that they fail
