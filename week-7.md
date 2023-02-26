@@ -29,9 +29,9 @@ Because of our new SSH key, no password was needed and it greatly expedited the 
 <img width="768" alt="image" src="https://user-images.githubusercontent.com/122555675/220985393-c0aade74-3cd2-485e-8db5-33b32452a682.png">
 
 ## 5. Clone your fork of the repository from your Github account
-`$ git clone git@github.com:ucsd-cse15l-w23/lab7.git <enter>`
+`$ git clone git@github.com:ucsd-cse15l-w23/lab7.git <enter>` <br>
 <br>
-Because we have our handy SSH key and are logged into the server, we can use the SSH generated link provided on GitHub to clone our fork in the terminal. Below shows where the link was taken from, and what the code output was after running.
+Because we have our handy SSH key and are logged into the server, we can use the SSH generated link provided on GitHub to clone our fork in the terminal. Below shows where the link was taken from, and what the code output was after running. <br>
 <br>
 <img width="1426" alt="image" src="https://user-images.githubusercontent.com/122555675/221434344-7e57d747-eb85-4742-8190-311d1834d3f4.png"> <br>
 <br>
