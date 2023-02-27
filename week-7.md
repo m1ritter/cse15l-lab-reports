@@ -42,12 +42,13 @@ Because we have our handy SSH key and are logged into the server, we can use the
 <img width="652" alt="image" src="https://user-images.githubusercontent.com/122555675/220984786-ade4e71a-7b18-48b9-92ce-2ed2f00634cd.png">
 
 ## 6. Run the tests, demonstrating that they fail
-<img width="944" alt="image" src="https://user-images.githubusercontent.com/122555675/220986079-7df84593-9b4f-4977-9db0-7e883f8f6fc9.png">
+<img width="572" alt="image" src="https://user-images.githubusercontent.com/122555675/221451495-779fc0c7-148f-465c-b3a8-edc5164c774e.png">
 
-Edit the code file to fix the failing test
+## 7. Edit the code file to fix the failing test
 
-Run the tests, demonstrating that they now succeed
-Commit and push the resulting change to your Github account (you can pick any commit message!)
+## 8. Run the tests, demonstrating that they now succeed
+
+## 9. Commit and push the resulting change to your Github account (you can pick any commit message!)
 
 change to index2 at bottom
 save
