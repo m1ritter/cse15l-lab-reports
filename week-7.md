@@ -47,6 +47,7 @@ Because we have our handy SSH key and are logged into the server, we can use the
 
 The *javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java* was three up in the search history so I used the up arrow to find it and then pressed enter to run it. Similarly, the javac command was two up arrows away so I found it and hit enter to run.
 
+<img width="963" alt="image" src="https://user-images.githubusercontent.com/122555675/221478553-141aa489-1120-4341-aa19-0a13d64bae3a.png">
 
 ## 7. Edit the code file to fix the failing test
 ``
