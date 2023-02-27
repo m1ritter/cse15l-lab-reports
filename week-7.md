@@ -62,9 +62,8 @@ The *javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java* was thre
 
 ## 9. Commit and push the resulting change to your Github account (you can pick any commit message!)
 
-change to index2 at bottom
-save
-rerun
+<img width="845" alt="image" src="https://user-images.githubusercontent.com/122555675/221480248-93d81646-015f-4a17-aec7-bfb28def64af.png">
+
 git add "ListExamples"
 git commit -m "updated"
 git push origin main
