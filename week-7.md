@@ -4,23 +4,6 @@
 
 By: Maddie Ritter
 
-## 1. Setup Delete any existing forks of the repository you have on your account
-Rather than deleting the entire repo from my account, the TAs suggest to simply delete the directory and start again that way. 
-That is what I show here! 
-<br>
-`$ cd .. <enter>` <br>
-`$ rm -rf lab7 <enter>` <br>
-`$ ls <enter>`
-
-<img width="664" alt="Screen Shot 2023-02-23 at 9 30 42 AM" src="https://user-images.githubusercontent.com/122555675/220984556-26b89a32-7392-4bf4-b35a-882f75c0be19.png">
-
-## 2. Setup Fork the repository
-Here, I made a fork of the repository for the first time! I used the link provided in the writeup to take me to the Lab 7 repository. From here, I used the "Fork" tab in the top right corner (shown below) in order to "create a new fork." In the example below, I have already forked the repository. 
-
-<img width="1427" alt="image" src="https://user-images.githubusercontent.com/122555675/220985203-0da2c1df-9570-4ab6-8411-eb30da58e26a.png">
-
-## 3. The real deal Start the timer!
-
 ## 4. Log into ieng6
 `$ ssh m1ritter@ieng6.ucsd.edu <enter>`
 
