@@ -42,11 +42,22 @@ Because we have our handy SSH key and are logged into the server, we can use the
 <img width="652" alt="image" src="https://user-images.githubusercontent.com/122555675/220984786-ade4e71a-7b18-48b9-92ce-2ed2f00634cd.png">
 
 ## 6. Run the tests, demonstrating that they fail
-<img width="572" alt="image" src="https://user-images.githubusercontent.com/122555675/221451495-779fc0c7-148f-465c-b3a8-edc5164c774e.png">
+`$ <up><up><up><enter>`
+`$ <up><up><enter>`
+
+The *javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java* was three up in the search history so I used the up arrow to find it and then pressed enter to run it. Similarly, the javac command was two up arrows away so I found it and hit enter to run.
+
 
 ## 7. Edit the code file to fix the failing test
+``
+``
+
+<img width="1307" alt="image" src="https://user-images.githubusercontent.com/122555675/221478026-6e77485b-4d02-4931-88c7-4b6075bfd288.png">
 
 ## 8. Run the tests, demonstrating that they now succeed
+
+<img width="957" alt="image" src="https://user-images.githubusercontent.com/122555675/221477594-d8b483b6-ad6e-4c00-9240-1803a6a81c91.png">
+
 
 ## 9. Commit and push the resulting change to your Github account (you can pick any commit message!)
 
