@@ -37,8 +37,8 @@ The 'javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java' was thre
 `$ <up><up><up><enter>` to find `$ nano ListExamples.java` <br>
 Once in nano: <br>
 `$ <down><down><down>....` to find and change index1 to index2 <br>
-`$ <cmnd o><enter>` to save <br>
-`$ <cmnd x><enter>` to exit nano <br>
+`$ <ctrl O><enter>` to save <br>
+`$ <ctrl X><enter>` to exit nano <br>
 
 <img width="1307" alt="image" src="https://user-images.githubusercontent.com/122555675/221478026-6e77485b-4d02-4931-88c7-4b6075bfd288.png">
 
