@@ -19,8 +19,7 @@ Because of our new SSH key, no password was needed and it greatly expedited the 
 
 Because we have our handy SSH key and are logged into the server, we can use the SSH generated link provided on GitHub to clone our fork in the terminal. Below shows where the link was taken from, and what the code output was after running. I copied the link using the little box icon on the right and pasted the link in the terminal. Then I changed my directory to be lab7. <br>
 
-<img width="1426" alt="image" src="https://user-images.githubusercontent.com/122555675/221434344-7e57d747-eb85-4742-8190-311d1834d3f4.png"> <br>
-<br>
+<img width="1437" alt="image" src="https://user-images.githubusercontent.com/122555675/221723921-fea48a54-4fce-4773-84fb-19f98aec8ad2.png"><br>
 
 **Code Output** 
 <br>
