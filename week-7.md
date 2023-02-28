@@ -26,33 +26,33 @@ Because we have our handy SSH key and are logged into the server, we can use the
 <img width="652" alt="image" src="https://user-images.githubusercontent.com/122555675/220984786-ade4e71a-7b18-48b9-92ce-2ed2f00634cd.png">
 
 ## 6. Run the tests, demonstrating that they fail
-`$ <up><up><up><enter>` 
-`$ <up><up><enter>`
+`$ <up><up><up><enter>` <br>
+`$ <up><up><enter>` <br>
 
 The 'javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java' was three up in the search history so I used the up arrow to find it and then pressed enter to run it. Similarly, the javac command was two up arrows away so I found it and hit enter to run.
 
 <img width="963" alt="image" src="https://user-images.githubusercontent.com/122555675/221478553-141aa489-1120-4341-aa19-0a13d64bae3a.png">
 
 ## 7. Edit the code file to fix the failing test
-`$ <up><up><up><enter>` to find `$ nano ListExamples.java`
-Once in nano:
-`$ <down><down><down>....` to find and change index1 to index2
-`$ <cmnd o><enter>` to save
-`$ <cmnd x><enter>` to exit nano
+`$ <up><up><up><enter>` to find `$ nano ListExamples.java` <br>
+Once in nano: <br>
+`$ <down><down><down>....` to find and change index1 to index2 <br>
+`$ <cmnd o><enter>` to save <br>
+`$ <cmnd x><enter>` to exit nano <br>
 
 <img width="1307" alt="image" src="https://user-images.githubusercontent.com/122555675/221478026-6e77485b-4d02-4931-88c7-4b6075bfd288.png">
 
 ## 8. Run the tests, demonstrating that they now succeed
-`$ <up><up><enter>` to find and run the javac Junit command
-`$ <up><up><up><up><enter>`to find the java command to run the Junit command
+`$ <up><up><enter>` to find and run the javac Junit command <br>
+`$ <up><up><up><up><enter>`to find the java command to run the Junit command <br>
 
 <img width="957" alt="image" src="https://user-images.githubusercontent.com/122555675/221477594-d8b483b6-ad6e-4c00-9240-1803a6a81c91.png">
 
 
 ## 9. Commit and push the resulting change to your Github account (you can pick any commit message!)
-`$ <up><up><up><up><up><up><enter>` to find `$ git add ListExamples.java`
-`$ <up><up><up><up><up><enter>` to find the `$ git commit -m "updated"`
-`$ <up><up><up><up><enter>` to find the `$ git push origin main`
+`$ <up><up><up><up><up><up><enter>` to find `$ git add ListExamples.java` <br>
+`$ <up><up><up><up><up><enter>` to find the `$ git commit -m "updated"` <br>
+`$ <up><up><up><up><enter>` to find the `$ git push origin main` <br>
 
 <img width="754" alt="image" src="https://user-images.githubusercontent.com/122555675/221721215-20005250-6d8c-4dbe-a807-705ad3c34f7c.png">
 
