@@ -14,7 +14,7 @@ Because of our new SSH key, no password was needed and it greatly expedited the 
 
 ## 5. Clone your fork of the repository from your Github account
 
-`$ git clone <cmnd V> <enter>` <br>
+`$ git clone <cmnd V> <enter>` to get '$ git clone git@github.com:m1ritter/lab7.git'
 `$ cd lab7 <enter>` <br>
 
 Because we have our handy SSH key and are logged into the server, we can use the SSH generated link provided on GitHub to clone our fork in the terminal. Below shows where the link was taken from, and what the code output was after running. I copied the link using the little box icon on the right and pasted the link in the terminal. Then I changed my directory to be lab7. <br>
@@ -27,7 +27,7 @@ Because we have our handy SSH key and are logged into the server, we can use the
 <img width="652" alt="image" src="https://user-images.githubusercontent.com/122555675/220984786-ade4e71a-7b18-48b9-92ce-2ed2f00634cd.png">
 
 ## 6. Run the tests, demonstrating that they fail
-`$ <up><up><up><enter>`
+`$ <up><up><up><enter>` 
 `$ <up><up><enter>`
 
 The 'javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java' was three up in the search history so I used the up arrow to find it and then pressed enter to run it. Similarly, the javac command was two up arrows away so I found it and hit enter to run.
