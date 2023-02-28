@@ -14,7 +14,7 @@ Because of our new SSH key, no password was needed and it greatly expedited the 
 
 ## 5. Clone your fork of the repository from your Github account
 
-`$ git clone <cmnd V> <enter>` to get '$ git clone git@github.com:m1ritter/lab7.git'
+`$ git clone <cmnd V> <enter>` to get `$ git clone git@github.com:m1ritter/lab7.git` <br>
 `$ cd lab7 <enter>` <br>
 
 Because we have our handy SSH key and are logged into the server, we can use the SSH generated link provided on GitHub to clone our fork in the terminal. Below shows where the link was taken from, and what the code output was after running. I copied the link using the little box icon on the right and pasted the link in the terminal. Then I changed my directory to be lab7. <br>
