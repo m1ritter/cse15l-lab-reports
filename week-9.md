@@ -4,15 +4,21 @@
 
 By: Maddie Ritter
 
-## grep -r "string" FILE
+I had so much fun researching about commands to use with `find` in Week 5 that I decided to do it again this week with `grep`! I felt that I learned a lot through that activity and learning more about grep could be very useful in the future! Let me walk you through what I discovered.
+
+## Firstly, `grep -i "string" FILE`
 https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/
+
+This command is used to make insensitive searches for strings in a file. This is super important because if you are looking for the word "the" for example, "the" is often times used as the start of a sentence. It can also be used within sentences. The '-i' command makes it so the output will include both of these options, as well as all other posibilities: "THE", "tHE", "thE", etc... <br>
+
+Here are some example:
 ```
 $ grep -i "ocean" WhereToItaly.txt
 ```
 <img width="616" alt="image" src="https://user-images.githubusercontent.com/122555675/224583797-efba834d-78e7-4b3e-81e9-240ff0e9d2db.png">
 
 ```
-$ grep -r "try" WhereToItaly.txt
+$ grep -i "try" WhereToItaly.txt
 ```
 <img width="594" alt="image" src="https://user-images.githubusercontent.com/122555675/224583905-b9bf686a-90a7-4ff6-81c2-ea9c7d9dc5c4.png">
 
