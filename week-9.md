@@ -47,3 +47,20 @@ $ grep (-i) -r "rice" WhereToJapan.txt
 ```
 Here, without using "-i" there were 21 lines where the word "rice" was found. I figured I would try it with "-i" and low and behold, there was one more additional line! <br>
 <img width="645" alt="image" src="https://user-images.githubusercontent.com/122555675/224584412-5449b87c-500e-4492-8058-7a2b05679cff.png">
+
+
+
+## Thirdly, `grep -c "string" FILE`
+https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/
+
+This command allows you to count the number of lines that contains the given string or pattern. <br>
+
+Here are a few examples:
+```
+$ 
+```
+
+```
+$ 
+```
+
