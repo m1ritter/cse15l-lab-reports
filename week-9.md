@@ -28,10 +28,6 @@ Here, we can see that the word "try" has been used in two different ways with di
 <img width="594" alt="image" src="https://user-images.githubusercontent.com/122555675/224583905-b9bf686a-90a7-4ff6-81c2-ea9c7d9dc5c4.png">
 
 
-
-<br>
-<br>
-
 ## Secondly, `grep -c "string" FILE`
 https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/
 
@@ -51,7 +47,6 @@ $ grep (-i) -r "rice" WhereToJapan.txt
 Here, without using "-i" there were 21 lines where the word "rice" was found. I figured I would try it with "-i" and low and behold, there was one more additional line! <br>
 
 <img width="645" alt="image" src="https://user-images.githubusercontent.com/122555675/224584412-5449b87c-500e-4492-8058-7a2b05679cff.png">
-
 
 
 ## Thirdly, `grep -n "string" FILE`
