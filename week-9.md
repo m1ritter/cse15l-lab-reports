@@ -45,5 +45,5 @@ In this case, the word "Italy" was found on 78 different lines.
 ```
 $ grep (-i) -r "rice" WhereToJapan.txt
 ```
-Here, without using "-i" there were 21 lines where the word "rice" was found. I figured I would try it with "-i" and low and behold, there was one more additional line! 
+Here, without using "-i" there were 21 lines where the word "rice" was found. I figured I would try it with "-i" and low and behold, there was one more additional line! <br>
 <img width="645" alt="image" src="https://user-images.githubusercontent.com/122555675/224584412-5449b87c-500e-4492-8058-7a2b05679cff.png">
