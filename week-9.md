@@ -15,14 +15,16 @@ Here are some examples:
 ```
 $ grep -i "ocean" WhereToItaly.txt
 ```
-In this case, we see that there were no instances where "ocean" was used at the beginning of a sentence or capitalized.
+In this case, we see that there were no instances where "ocean" was used at the beginning of a sentence or capitalized. <br>
+
 <img width="616" alt="image" src="https://user-images.githubusercontent.com/122555675/224583797-efba834d-78e7-4b3e-81e9-240ff0e9d2db.png">
 
 
 ```
 $ grep -i "try" WhereToItaly.txt
 ```
-Here, we can see that the word "try" has been used in two different ways with different capitalization.
+Here, we can see that the word "try" has been used in two different ways with different capitalization. <br>
+
 <img width="594" alt="image" src="https://user-images.githubusercontent.com/122555675/224583905-b9bf686a-90a7-4ff6-81c2-ea9c7d9dc5c4.png">
 
 
@@ -39,7 +41,8 @@ Here are a few examples:
 ```
 $ grep -c "Italy" WhereToItaly.txt
 ```
-In this case, the word "Italy" was found on 78 different lines.
+In this case, the word "Italy" was found on 78 different lines. <br>
+
 <img width="622" alt="image" src="https://user-images.githubusercontent.com/122555675/224584319-df72fcbc-4912-449c-966e-c13f2f665fe9.png">
 
 ```
