@@ -49,21 +49,28 @@ In this case, the word "Italy" was found on 78 different lines. <br>
 $ grep (-i) -r "rice" WhereToJapan.txt
 ```
 Here, without using "-i" there were 21 lines where the word "rice" was found. I figured I would try it with "-i" and low and behold, there was one more additional line! <br>
+
 <img width="645" alt="image" src="https://user-images.githubusercontent.com/122555675/224584412-5449b87c-500e-4492-8058-7a2b05679cff.png">
 
 
 
-## Thirdly, `grep -c "string" FILE`
+## Thirdly, `grep -n "string" FILE`
 https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/
 
-This command allows you to count the number of lines that contains the given string or pattern. <br>
+This command prints out the line numbers that contain the given string or pattern. <br>
 
 Here are a few examples:
 ```
-$ 
+$ grep -n "Italy" WhereToItaly.txt
 ```
+From the previous command, I learned there are 78 lines with "Italy" in the file. Here I printed exactly which lines the word was on. <br>
+
+<img width="684" alt="image" src="https://user-images.githubusercontent.com/122555675/224589083-aabe74a4-20a7-4764-9de5-2859f29103f9.png">
 
 ```
-$ 
+$ grep -n "rice" WhereToJapan.txt
 ```
+From the previous command with -r, we learned that the word "rice" is in the file "WhereToJapan.txt" 21 times and in this command we see exactly which lines the word is in. Below there is short clip of the first few lines. <br>
+
+<img width="641" alt="image" src="https://user-images.githubusercontent.com/122555675/224588832-9194e0a0-2e45-4c63-a9b2-59cd8057ec35.png"> 
 
