@@ -4,7 +4,7 @@
 
 By: Maddie Ritter
 
-I had so much fun researching about commands to use with `find` in Week 5 that I decided to do it again this week with `grep`! I felt that I learned a lot through that activity and learning more about grep could be very useful in the future! Let me walk you through what I discovered.
+I had so much fun researching about commands to use with `find` in Week 5 that I decided to do it again this week with `grep`! I again used the file skill-demo1-data to do this activity! Let me walk you through what I discovered.
 
 ## Firstly, `grep -i "string" FILE`
 https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/
@@ -16,16 +16,22 @@ Here are some example:
 $ grep -i "ocean" WhereToItaly.txt
 ```
 <img width="616" alt="image" src="https://user-images.githubusercontent.com/122555675/224583797-efba834d-78e7-4b3e-81e9-240ff0e9d2db.png">
+In this case, we see that there were no instances where "ocean" was used at the beginning of a sentence or capitalized.
 
 ```
 $ grep -i "try" WhereToItaly.txt
 ```
 <img width="594" alt="image" src="https://user-images.githubusercontent.com/122555675/224583905-b9bf686a-90a7-4ff6-81c2-ea9c7d9dc5c4.png">
+Here, we can see that the word "try" has been used in two different ways with different capitalization, both at the beginning of sentences and to start them.
 
 
+<br>
+<br>
 
-## grep -c "string" FILE
+## Secondly, `grep -c "string" FILE`
 https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/
+
+This command allows you to count the number of lines that contains the givens tring or pattern. 
 ```
 $ grep -c "Italy" WhereToItaly.txt
 ```
